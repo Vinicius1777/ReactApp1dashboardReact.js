@@ -1,0 +1,6 @@
+@ReactApp1dashboardReact.js.Server_HostAddress = http://localhost:5251
+
+GET {{ReactApp1dashboardReact.js.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

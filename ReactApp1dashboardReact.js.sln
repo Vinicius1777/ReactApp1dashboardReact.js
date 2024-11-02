@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactApp1dashboardReact.js.Server", "ReactApp1dashboardReact.js.Server\ReactApp1dashboardReact.js.Server.csproj", "{138FFC5A-FE12-4EEA-8150-EC4140139D1A}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "reactapp1dashboardreact.js.client", "reactapp1dashboardreact.js.client\reactapp1dashboardreact.js.client.esproj", "{B4AE04C5-E8A2-4AF0-A196-D8C1E3FFD8C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{96247031-8996-4E35-8153-CB2BEF1DD0D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{CC25B0AA-3DC4-45E2-A6FA-55561A9D457C}"
+	ProjectSection(SolutionItems) = preProject
+		api.js = api.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "components", "components", "{E36774A7-362F-465E-976B-6E1512746F9E}"
+	ProjectSection(SolutionItems) = preProject
+		Chart.js = Chart.js
+		StatsCard.css = StatsCard.css
+		StatsCard.js = StatsCard.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{4998D5AF-1C2B-4CBF-B01C-FCAE7EA8B3E3}"
+	ProjectSection(SolutionItems) = preProject
+		App.js = App.js
+		Dashboard.js = Dashboard.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pages", "pages", "{80BBAB28-19B6-4F99-8D61-8BEB75E2971C}"
+	ProjectSection(SolutionItems) = preProject
+		Dashboard.css = Dashboard.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{138FFC5A-FE12-4EEA-8150-EC4140139D1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{138FFC5A-FE12-4EEA-8150-EC4140139D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{138FFC5A-FE12-4EEA-8150-EC4140139D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{138FFC5A-FE12-4EEA-8150-EC4140139D1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4AE04C5-E8A2-4AF0-A196-D8C1E3FFD8C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4AE04C5-E8A2-4AF0-A196-D8C1E3FFD8C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4AE04C5-E8A2-4AF0-A196-D8C1E3FFD8C7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B4AE04C5-E8A2-4AF0-A196-D8C1E3FFD8C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4AE04C5-E8A2-4AF0-A196-D8C1E3FFD8C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4AE04C5-E8A2-4AF0-A196-D8C1E3FFD8C7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CC25B0AA-3DC4-45E2-A6FA-55561A9D457C} = {96247031-8996-4E35-8153-CB2BEF1DD0D6}
+		{E36774A7-362F-465E-976B-6E1512746F9E} = {96247031-8996-4E35-8153-CB2BEF1DD0D6}
+		{80BBAB28-19B6-4F99-8D61-8BEB75E2971C} = {96247031-8996-4E35-8153-CB2BEF1DD0D6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0946B6CB-A006-493E-B7DF-1ECE88C17E68}
+	EndGlobalSection
+EndGlobal
